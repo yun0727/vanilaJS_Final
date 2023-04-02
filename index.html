@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 id="clock">00:00</h2>
+    <h3>멍군이 생일까지</h3>
+    <h2 class="count"></h2>
+    <form class="hidden" id="login-form">
+      <input
+        type="text"
+        required
+        maxlength="15"
+        placeholder="What is your name?"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo-form">
+      <input
+        type="text"
+        placeholder="멍군이와 하고 싶은 버킷리스트"
+        required
+        class="todo"
+      />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="beagle">
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <br />
+      <span></span>
+    </div>
+    <script src="js/greetings.js "></script>
+    <script src="js/clock.js"></script>
+    <script src="js/munggoon.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/count.js"></script>
+  </body>
+</html>

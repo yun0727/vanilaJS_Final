@@ -1,0 +1,65 @@
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: auto;
+  top: 0px;
+  right: auto;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 40%;
+}
+.hidden {
+  display: none;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+#clock {
+  font-size: 3rem;
+  filter: drop-shadow(2px 2px 2px white);
+  text-align: center;
+  color: rgb(163, 198, 229);
+}
+#login-form {
+  text-align: center;
+}
+#todo-form {
+  text-align: center;
+  margin-top: 20px;
+}
+#beagle {
+  text-align: center;
+  filter: drop-shadow(1px 1px 1px white);
+  color: rgb(173, 203, 230);
+}
+#weather {
+  text-align: center;
+  color: rgb(131, 167, 198);
+  filter: drop-shadow(2px 2px 2px black);
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 20px;
+}
+#greeting {
+  text-align: center;
+  color: rgb(113, 182, 243);
+  filter: drop-shadow(4px 4px 4px black);
+}
+.todo {
+  width: 300px;
+}
+#todo-list {
+  text-align: center;
+  color: rgb(139, 192, 238);
+  opacity: 80%;
+}
+.count,
+h3 {
+  text-align: center;
+  color: rgb(139, 192, 238);
+  filter: drop-shadow(1.5px 1.5px 1.5px blue);
+}
