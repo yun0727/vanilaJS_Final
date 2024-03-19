@@ -4,7 +4,7 @@
 <img src="./img/chromeweb.png" height="215px" width="300px">
 </p>
 
-## KaKaoTalk Web
+## Chrome Web
 > 개발 기간 : 2023.03.20-2023.04.02
 ## Deploy
 > https://yun0727.github.io/Vanilajs_final/
