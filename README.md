@@ -1,14 +1,13 @@
 # Chrome Web with Vanilla JS
 
 <p align="center">
-<img src="./img/kakaotalk.png" height="215px" width="300px">
+<img src="./img/chromeweb.png" height="215px" width="300px">
 </p>
 
 ## KaKaoTalk Web
-> 개발 기간 : 2022.12.12-2022.12.25 
-
+> 개발 기간 : 2023.03.20-2023.04.02
 ## Deploy
-> https://yun0727.github.io/kokoa-clone-2022/
+> https://yun0727.github.io/Vanilajs_final/
 
 <br/>
 
@@ -16,7 +15,7 @@
 
 ### Installation
 ```
-$ git clone https://github.com/yun0727/kokoa-clone-2022.git
+$ git clone https://github.com/yun0727/Vanilajs_final.git
 ```
 
 <br/>
@@ -29,6 +28,8 @@ $ git clone https://github.com/yun0727/kokoa-clone-2022.git
 ### Development
 <img src="https://img.shields.io/badge/html5-e34f26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/css3-1572b6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" />
+
 
 ### Deploy
 <img src="https://img.shields.io/badge/github pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" />
@@ -36,6 +37,5 @@ $ git clone https://github.com/yun0727/kokoa-clone-2022.git
 <br/>
 
 # 주요 기능
-* BEM을 이용하여 CSS 코드 구성하고 유지, 관리
-* Media Query 사용하여 반응형 웹페이지로 구현
-* FontAwesome으로 다양한 아이콘 구현
+* 자바스크립트로 시계, 할일 목록, 날씨 구현
+* Open Weather API를 사용하여 위치 정보와 날씨 정보 불러오기
