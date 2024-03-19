@@ -2,7 +2,7 @@ const clockTitle = document.querySelector(".count");
 
 function getClock() {
   const date = new Date();
-  const xmas = new Date("2024-3-15");
+  const xmas = new Date("2025-3-15");
   const diff = xmas - date;
   const day = Math.floor(diff / (1000 * 60 * 60 * 24));
   const hours = String(Math.floor((diff / (1000 * 60 * 60)) % 24)).padStart(
